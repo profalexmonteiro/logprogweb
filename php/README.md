@@ -1,20 +1,20 @@
 # Disciplina de Linguagem de Programação Web - Tópico PHP
 Discplina de Programação Web<br>
 Questão 01<br>
-Construa um formulário em HTML5 que receba três números inteiros e apresente um campo de saída com a soma
+Construa um formulário em HTML5 que receba três números inteiros, processe em uma pagina PHP  e apresente a soma
 deles. Construa o formulário conforme o modelo abaixo:<br>
 <p align="center">
     <img height="60%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/php/images/questao01.png"><br>
 </p>
 Questão 02<br>
-Construa um formulário em HTML5 que receba quatro números reais e apresente um campo de saída com a média
+Construa um formulário em HTML5 que receba quatro números reais, processe em uma pagina PHP  e apresente a média
 deles. Construa o formulário conforme o modelo abaixo:<br>
 <p align="center">
 <img height="60%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/php/images/questao02.png"><br>
 </p>
 
 Questão 03<br>
-Construa um formulário em HTML5 que receba duas notas de prova, seus respectivos pesos e apresente um campo de saída com a média ponderada deles.
+Construa um formulário em HTML5 que receba duas notas de prova, seus respectivos pesos, processe em uma pagina PHP  e apresente a média ponderada deles.
 Construa o formulário conforme o modelo abaixo:<br>
 <p align="center">
 <img height="60%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/php/images/questao03.png"><br>
@@ -34,7 +34,7 @@ Construa um formulário em HTML5 que receba o salário-base e a quantidade de de
 </p>
 
 Questão 06<br>
-Construa um formulário em HTML5 que receba os valores antigo e novo de um produto, e apresente um campo de saída com a porcentagem de aumento que o mesmo teve. Construa o formulário conforme o modelo abaixo:<br>
+Construa um formulário em HTML5 que receba os valores antigo e novo de um produto,, processe em uma pagina PHP  e apresente a porcentagem de aumento que o mesmo teve. Construa o formulário conforme o modelo abaixo:<br>
 <p align="center">
 <img height="60%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/php/images/questao06.png"><br>
 </p>
