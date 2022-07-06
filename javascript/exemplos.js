@@ -88,19 +88,49 @@ function calculaSalarioLiquido(){
 function calculaAumento(){
 
     //recuperação de entradas de dados
-    var salarioBase     = parseFloat( document.getElementById("salarioBase").value    ); 
-    var dependentes     = parseFloat( document.getElementById("dependentes").value    );      
-    var salarioFamilia  = parseFloat( document.getElementById("salarioFamilia").value );
-    var imposto         = parseFloat( document.getElementById("imposto").value        ); 
+    var valorAntigo     = parseFloat( document.getElementById("valorAntigo").value    ); 
+    var novoValor       = parseFloat( document.getElementById("novoValor").value    );          
     
     //processamento
-    var salarioBruto = salarioBase + dependentes * salarioFamilia;
-
-    var salarioLiquido = salarioBruto - salarioBruto*imposto/100;
+    var porcentagem = (novoValor - valorAntigo)*100/valorAntigo;
 
     //saida
-    document.getElementById("salarioLiquido").value = salarioLiquido.toFixed(2);
+    document.getElementById("aumentop").value = porcentagem.toFixed(2);
  
+}
+
+function calcularMedidas(){
+    //recuperação de entradas de dados
+    var raio     = parseFloat( document.getElementById("raio").value    ); 
+    const pi = 3.1415;
+    
+    
+    //processamento
+    var diametro = 2 * raio;
+
+    var perimetro = 2 * pi * raio;
+
+    var area = pi * Math.pow(raio,2);
+
+    var volume = 4 * pi * Math.pow(raio,3)/3;  
+
+    //saida
+    document.getElementById("diametro").value = diametro.toFixed(2);
+    document.getElementById("perimetro").value = perimetro.toFixed(2);
+    document.getElementById("area").value = area.toFixed(2);
+    document.getElementById("volume").value = volume.toFixed(2);    
+
+}
+
+function converterVelocidade(){
+  //recuperação de entradas de dados
+  var velocidadeKPH    = parseFloat( document.getElementById("velocidadeKPH").value ); 
+  
+  //processamento
+  var velocidadeMPS = velocidadeKPH/3.6;
+
+  //saida
+  document.getElementById("velocidadeMPS").value = velocidadeMPS.toFixed(2);
 }
 
 
