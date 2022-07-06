@@ -7,7 +7,7 @@ deles. Construa o formulário conforme o modelo abaixo:<br>
     <img height="100%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/html/images/questao01.PNG"><br>
 </p>
 
-Dica: <span>##(x + a)^{2}=\sum _{n}^{k}##</span>
+Dica: <span class="fgvmath">2x = 1y * 2 / 10</span>
 
 Questão 02<br>
 Construa um formulário em HTML e Javascript que receba quatro números reais e calcule a média
