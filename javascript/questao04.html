@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Questão 04</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="exemplos.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <form>
+            <div class="form-group">
+                <label for="salarioAtual">Salário atual</label><br>
+                <input type="number" name="salarioAtual" placeholder="R$ 0.0" id="salarioAtual"><br>
+
+                <label for="porcentagem">Porcentagem</label><br>
+                <input type="number" name="porcentagem" placeholder="0.0 %" id="porcentagem"><br>
+
+                <label for="novoSalario">Novo salário</label><br>
+                <input type="number" name="novoSalario" placeholder="R$ 0.0" id="novoSalario"><br>      
+
+                <input type="button" class="btn btn-primary"  value="Calcular média ponderada" onclick="novoSalario()">
+            </div>            
+        </form>
+
+        <script src="exemplos.js"></script>
+    </body>
+</html>

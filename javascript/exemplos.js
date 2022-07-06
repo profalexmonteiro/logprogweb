@@ -13,17 +13,51 @@ function calculaArea2(){
 
 function somar(){
     //recuperação de entradas de dados
-    var numero1    = document.getElementById("numero1").value;
-    var numero2    = document.getElementById("numero2").value;
-    var numero3    = document.getElementById("numero3").value;
-    var numero4    = document.getElementById("numero4").value;
+    var numero1    = parseInt( document.getElementById("numero1").value ); 
+    var numero2    = parseInt( document.getElementById("numero2").value );
+    var numero3    = parseInt( document.getElementById("numero3").value );
+    var numero4    = parseInt( document.getElementById("numero4").value );
     
     //processamento
     var soma = numero1 + numero2 + numero3 + numero4;
 
     //saida
-    document.getElementById("soma").value = soma;
+    document.getElementById("resultado").value = soma;
 }
+
+function mediaArimetica(){
+    //recuperação de entradas de dados
+    var numero1    = parseInt( document.getElementById("nota1").value ); 
+    var numero2    = parseInt( document.getElementById("nota2").value );
+    var numero3    = parseInt( document.getElementById("nota3").value );
+    var numero4    = parseInt( document.getElementById("nota4").value );
+    
+    //processamento
+    var media = (numero1 + numero2 + numero3 + numero4)/4;
+
+    //saida
+    document.getElementById("media").value = media;
+}
+
+function mediaPonderada(){
+    //recuperação de entradas de dados
+    var nota1    = parseFloat( document.getElementById("nota1").value ); 
+    var peso1    = parseFloat( document.getElementById("peso1").value );
+    var nota2    = parseFloat( document.getElementById("nota2").value );
+    var peso2    = parseFloat( document.getElementById("peso2").value );
+    
+    //processamento
+    var media = (nota1 * peso1 + nota2 * peso2)/(peso1 + peso2);
+
+    //saida
+    document.getElementById("media").value = media.toFixed(2);
+}
+
+
+
+
+
+
 
 function somarAlert(){
     //recuperação de entradas de dados

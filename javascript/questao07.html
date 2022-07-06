@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Questão 07</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="exemplos.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <form>
+            <div class="form-group">
+                <label for="raio">Raio do círculo:</label><br>
+                <input type="number" name="raio" placeholder="0.0 m" id="raio"><br>
+
+                <label for="diametro">Diâmetro</label><br>
+                <input type="number" name="diametro" placeholder="0.0 m" id="diametro" readonly><br>
+
+                <label for="perimetro">Perímetro</label><br>
+                <input type="number" name="perimetro" placeholder="0.0 m" id="perimetro" readonly><br>
+
+                <label for="area">Área</label><br>
+                <input type="number" name="area" placeholder="0.0 m²" id="area" readonly><br>
+
+                <label for="volume">Volume</label><br>
+                <input type="number" name="volume" placeholder="0.0 m³" id="volume" readonly><br>
+
+                <input type="button" class="btn btn-primary"  value="Calcular medidas" onclick="calcularMedidas()">
+            </div>            
+        </form>
+
+        <script src="exemplos.js"></script>
+
+    </body>
+</html>
