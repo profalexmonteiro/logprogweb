@@ -6,6 +6,9 @@ deles. Construa o formulário conforme o modelo abaixo:<br>
 <p align="center">
     <img height="100%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/html/images/questao01.PNG"><br>
 </p>
+
+Dica: <span>##(x + a)^{2}=\sum _{n}^{k}##</span>
+
 Questão 02<br>
 Construa um formulário em HTML e Javascript que receba quatro números reais e calcule a média
 deles. Construa o formulário conforme o modelo abaixo:<br>
