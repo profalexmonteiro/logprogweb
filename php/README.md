@@ -4,7 +4,7 @@ Questão 01<br>
 Construa um formulário em HTML5 que receba três números inteiros e apresente um campo de saída com a soma
 deles. Construa o formulário conforme o modelo abaixo:<br>
 <p align="center">
-    <img height="100%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/php/images/questao01.PNG"><br>
+    <img height="100%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/php/images/questao01.png"><br>
 </p>
 Questão 02<br>
 Construa um formulário em HTML5 que receba quatro números reais e apresente um campo de saída com a média
