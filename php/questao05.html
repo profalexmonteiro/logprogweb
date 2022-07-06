@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Questão 05</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="exemplos.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <form action="questao05.php">
+            <div class="form-group">
+                <label for="salarioBase">Salário base:</label><br>
+                <input type="number" name="salarioBase" placeholder="R$ 0.0" id="salarioBase"><br>
+
+                <label for="dependentes">Dependentes</label><br>
+                <input type="number" name="dependentes" placeholder="0" id="dependentes"><br>
+
+                <label for="salarioFamilia">Salário família:</label><br>
+                <input type="number" name="salarioFamilia" placeholder="32.0" id="salarioFamilia" value="32,0"><br>
+
+                <label for="imposto">Imposto</label><br>
+                <input type="number" name="imposto" placeholder="0.0" id="imposto" value="27,5"><br>            
+
+                <input type="submit" class="btn btn-primary"  value="Calcular salário líquido">
+            </div>            
+        </form>
+
+        <script src="exemplos.js"></script>
+    </body>
+</html>

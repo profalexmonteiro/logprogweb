@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Questão 06</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="exemplos.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <form action="questao06.php">
+            <div class="form-group">
+                <label for="valorAntigo">Valor antigo</label><br>
+                <input type="number" name="valorAntigo" placeholder="R$ 0.0" id="valorAntigo"><br>
+
+                <label for="novoValor">Novo valor</label><br>
+                <input type="number" name="novoValor" placeholder="R$ 0.0 " id="novoValor"><br>
+
+                <label for="aumentop">Aumento em (%): </label><br>
+                <input type="number" name="aumentop" placeholder="0.0 %" id="aumentop" readonly><br>      
+
+                <input type="button" class="btn btn-primary"  value="Calcular aumento" onclick="calculaAumento()">
+            </div>            
+        </form>
+        
+        <script src="exemplos.js"></script>
+    </body>
+</html>
