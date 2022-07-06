@@ -53,6 +53,38 @@ function mediaPonderada(){
     document.getElementById("media").value = media.toFixed(2);
 }
 
+function calculaNovoSalario(){
+
+       //recuperação de entradas de dados
+       var salarioAtual   = parseFloat( document.getElementById("salarioAtual").value ); 
+       var porcentagem    = parseFloat( document.getElementById("porcentagem").value  );       
+       
+       //processamento
+       var novoSalario = salarioAtual + (salarioAtual * porcentagem)/100;
+   
+       //saida
+       document.getElementById("novoSalario").value = novoSalario.toFixed(2);
+    
+}
+
+function calculaSalarioLiquido(){
+
+    //recuperação de entradas de dados
+    var salarioBase     = parseFloat( document.getElementById("salarioBase").value ); 
+    var dependentes     = parseFloat( document.getElementById("dependentes").value  );      
+    var salarioFamilia  = parseFloat( document.getElementById("salarioFamilia").value );
+    var imposto         = parseFloat( document.getElementById("imposto").value ); 
+    
+    //processamento
+    var salarioBruto = salarioBase + dependentes * salarioFamilia;
+
+    var salarioLiquido = salarioBruto - salarioBruto*imposto/100;
+
+    //saida
+    document.getElementById("salarioLiquido").value = salarioLiquido.toFixed(2);
+ 
+}
+
 
 
 
