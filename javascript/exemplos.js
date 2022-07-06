@@ -70,10 +70,28 @@ function calculaNovoSalario(){
 function calculaSalarioLiquido(){
 
     //recuperação de entradas de dados
-    var salarioBase     = parseFloat( document.getElementById("salarioBase").value ); 
-    var dependentes     = parseFloat( document.getElementById("dependentes").value  );      
+    var salarioBase     = parseFloat( document.getElementById("salarioBase").value    ); 
+    var dependentes     = parseFloat( document.getElementById("dependentes").value    );      
     var salarioFamilia  = parseFloat( document.getElementById("salarioFamilia").value );
-    var imposto         = parseFloat( document.getElementById("imposto").value ); 
+    var imposto         = parseFloat( document.getElementById("imposto").value        ); 
+    
+    //processamento
+    var salarioBruto = salarioBase + dependentes * salarioFamilia;
+
+    var salarioLiquido = salarioBruto - salarioBruto*imposto/100;
+
+    //saida
+    document.getElementById("salarioLiquido").value = salarioLiquido.toFixed(2);
+ 
+}
+
+function calculaAumento(){
+
+    //recuperação de entradas de dados
+    var salarioBase     = parseFloat( document.getElementById("salarioBase").value    ); 
+    var dependentes     = parseFloat( document.getElementById("dependentes").value    );      
+    var salarioFamilia  = parseFloat( document.getElementById("salarioFamilia").value );
+    var imposto         = parseFloat( document.getElementById("imposto").value        ); 
     
     //processamento
     var salarioBruto = salarioBase + dependentes * salarioFamilia;
