@@ -7,7 +7,19 @@ deles. Construa o formulário conforme o modelo abaixo:<br>
     <img height="100%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/html/images/questao01.PNG"><br>
 </p>
 
-Dica: <span class="fgvmath">2x = 1y * 2 / 10</span>
+Dica: <math>
+      <mfenced>
+            <mi> Soma </mi>
+            <mo> = </mo>
+            <mn> Numero1 </mn>
+            <mo> + </mo>
+            <mn> Numero2 </mn>
+            <mo> + </mo>
+            <mn> Numero3 </mn>
+            <mo> + </mo>
+            <mn> Numero4 </mn>           
+      </mfenced>
+</math>
 
 Questão 02<br>
 Construa um formulário em HTML e Javascript que receba quatro números reais e calcule a média
