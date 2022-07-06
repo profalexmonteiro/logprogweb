@@ -1,4 +1,4 @@
-# Disciplina de Linguagem de Programação Web - Tópico HTML
+# Disciplina de Linguagem de Programação Web - Tópico PHP
 Discplina de Programação Web<br>
 Questão 01<br>
 Construa um formulário em HTML5 que receba três números inteiros e apresente um campo de saída com a soma

@@ -1,4 +1,4 @@
-# Disciplina de Linguagem de Programação Web - Tópico HTML
+# Disciplina de Linguagem de Programação Web - Tópico Javascript
 Discplina de Programação Web<br>
 Questão 01<br>
 Construa um formulário em HTML e Javascript que receba três números inteiros e calcule a soma
