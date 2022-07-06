@@ -3,8 +3,9 @@ Discplina de Programação Web<br>
 Questão 01<br>
 Construa um formulário HTML que receba três números inteiros e calcule a soma
 deles. Construa o formulário conforme o modelo abaixo:<br>
+<div style="text-align:center">
 <img height="100%" src="https://github.com/profalexmonteiro/logprogweb/blob/main/html/images/questao01.PNG"><br>
-
+</div>
 Questão 02<br>
 Construa um formulário HTML que receba quatro números reais e calcule a média
 deles. Construa o formulário conforme o modelo abaixo:<br>
