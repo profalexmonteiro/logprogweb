@@ -2,24 +2,33 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Questão 02</title>
+        <title>Questão 07</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="exemplos.css" rel="stylesheet">
     </head>
     <body>
 
         <?php
-                //recuperação de variáveis 
-                $numero1 = $_GET["nota1"];
-                $numero2 = $_GET["nota2"];
-                $numero3 = $_GET["nota3"];
-                $numero4 = $_GET["nota4"];                
 
+                $pi = 3.1415;
+                //recuperação de variáveis 
+                $raio = $_GET["raio"];                
+             
                 //processamento
-                $media = ($numero1 + $numero2 + $numero3 + $numero4)/4;
+                $diametro = 2 * $raio;
+
+                $perimetro = 2 * $pi * $raio;
+
+                $area = $pi * pow($raio,2);
+
+                $volume = 4 * $pi * pow($raio,3)/3;
 
                 //saída
-                echo "A média é " . $media;
+                echo "As medidas são: <br>
+                        Diâmetro: " . $diametro . " m<br>" .
+                        "Perímetro: " . $perimetro . " m<br>" .
+                        "Área: " . $area . " m²<br>" .
+                        "Volume: " . $volume . " m³<br>";
 
         ?>
 

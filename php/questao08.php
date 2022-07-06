@@ -10,16 +10,13 @@
 
         <?php
                 //recuperação de variáveis 
-                $numero1 = $_GET["nota1"];
-                $numero2 = $_GET["nota2"];
-                $numero3 = $_GET["nota3"];
-                $numero4 = $_GET["nota4"];                
+                $velocidadeKPH = $_GET["velocidadeKPH"];                       
 
                 //processamento
-                $media = ($numero1 + $numero2 + $numero3 + $numero4)/4;
+                $velocidadeMPS = $velocidadeKPH/3.6;
 
                 //saída
-                echo "A média é " . $media;
+                echo "A velocidade é " . round($velocidadeMPS,2) . " m/s";
 
         ?>
 

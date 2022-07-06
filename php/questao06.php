@@ -10,16 +10,14 @@
 
         <?php
                 //recuperação de variáveis 
-                $numero1 = $_GET["nota1"];
-                $numero2 = $_GET["nota2"];
-                $numero3 = $_GET["nota3"];
-                $numero4 = $_GET["nota4"];                
+                $valorAntigo = $_GET["valorAntigo"];
+                $novoValor = $_GET["novoValor"];                
 
                 //processamento
-                $media = ($numero1 + $numero2 + $numero3 + $numero4)/4;
+                $aumento = ($novoValor - $valorAntigo)*100 / $valorAntigo;
 
                 //saída
-                echo "A média é " . $media;
+                echo "A aumento foi de " . $aumento . "%";
 
         ?>
 
